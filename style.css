@@ -1,0 +1,71 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.video-container {
+  position: relative;
+}
+.video-text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.bg-gradient-custom {
+  background: linear-gradient(to right, #08000f, #000307);
+  color: white;
+}
+.object_A {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.shadow-black {
+  box-shadow: 15px 15px 15px rgb(20, 0, 0);
+}
+.high {
+  height: 55px;
+  width: 350px;
+  background-color: rgba(0, 0, 0, 0.452);
+}
+.btnA {
+  background-color: red;
+}
+.high2 {
+  height: 280px;
+  width: 200px;
+  transition: ease 1s all;
+  cursor: pointer;
+}
+.high2:hover {
+  transform: scale(1.1);
+}
+.useA{
+  height: 120px;
+  width: 250px;
+  background-color: rgb(41, 41, 44);
+  
+}
+.high3{
+  height: 70px;
+  width: 95%;
+  border: 1px solid white;
+  line-height: 70px;
+  background-color: rgb(41, 41, 44);
+  cursor: pointer;
+}
+.high3:hover{
+  background-color: rgb(62, 62, 68);
+}
+.high4{
+  height: 200px;
+  width: 1000px;
+  margin-left: 200px;
+}
